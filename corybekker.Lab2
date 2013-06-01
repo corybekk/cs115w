@@ -1,0 +1,691 @@
+Script started on Mon Feb 14 11:43:35 2011
+]0;cbekker@cwolf:~/cs115w[?1034h[cbekker@cwolf cs115w]$ cd
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ /
+bash: /: is a directory
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ cd /
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlib64[00m       [00;34mmedia[00m  [00;34mopt[00m   [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mlost+found[00m  [00;34mmnt[00m    [00;34mproc[00m  [00;34msbin[00m  [00;34msrv[00m      [30;42mtmp[00m  [00;34mvar[00m
+[m]0;cbekker@cwolf:/[cbekker@cwolf /]$ cd ..
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlib64[00m       [00;34mmedia[00m  [00;34mopt[00m   [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mlost+found[00m  [00;34mmnt[00m    [00;34mproc[00m  [00;34msbin[00m  [00;34msrv[00m      [30;42mtmp[00m  [00;34mvar[00m
+[m]0;cbekker@cwolf:/[cbekker@cwolf /]$ cd cbekker
+bash: cd: cbekker: No such file or directory
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ls  cd cs214 5
+bash: cd: cs215: No such file or directory
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ s cd cs1154 
+bash: cd: cs115: No such file or directory
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlib64[00m       [00;34mmedia[00m  [00;34mopt[00m   [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mlost+found[00m  [00;34mmnt[00m    [00;34mproc[00m  [00;34msbin[00m  [00;34msrv[00m      [30;42mtmp[00m  [00;34mvar[00m
+[m]0;cbekker@cwolf:/[cbekker@cwolf /]$ cd home
+]0;cbekker@cwolf:/home[cbekker@cwolf home]$ ls
+[00m[00;34mfaculty[00m  [00;34minstall[00m  [00;34mraven[00m  [00;34mstudent[00m
+[m]0;cbekker@cwolf:/home[cbekker@cwolf home]$ cd student
+]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ ks
+bash: ks: command not found
+]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ ls
+[00m[00;34maadema[00m     [00;34mcaballer[00m                          [00;34mdturover[00m    [00;34mjharnden[00m  [00;34mmcgaughy[00m  [00;34mrcarlson[00m   [00;34mtdawson[00m
+[00;34maafaese[00m    [00;34mcadame[00m                            [00;34mdummy1[00m      [00;34mjhetrick[00m  [00;34mmchen[00m     [00;34mresources[00m  [00;34mtdoughty[00m
+[00;34mablodow[00m    [00;34mcalabres[00m                          [00;34mdummy2[00m      [00;34mjhickman[00m  [00;34mmckenney[00m  [00;34mrfarmer[00m    [00;34mteam01[00m
+[00;34mabravo[00m     [00;34mcampbeas[00m                          [00;34mdwoloz[00m      [00;34mjjohnson[00m  [00;34mmckinstr[00m  [00;34mrfuller[00m    [00;34mteam02[00m
+[00;34macazarez[00m   [00;34mcamposro[00m                          [00;34mebrahimi[00m    [00;34mjkaiser[00m   [00;34mmcowan[00m    [00;34mrgibble[00m    [00;34mteam03[00m
+[00;34macesca[00m     [00;34mcarstens[00m                          [00;34meconnors[00m    [00;34mjkelly[00m    [00;34mmcwillia[00m  [00;34mrgomez[00m     [00;34mteam04[00m
+[00;34maedinoff[00m   [00;34mcasciani[00m                          [00;34medimond[00m     [00;34mjkemp[00m     [00;34mmdennen[00m   [00;34mrichards[00m   [00;34mteam05[00m
+[00;34maestrugo[00m   [00;34mcastlema[00m                          [00;34mefloric[00m     [00;34mjking[00m     [00;34mmeliaser[00m  [00;34mrmarnell[00m   [00;34mteam06[00m
+[00;34maevans[00m     [00;34mcavallar[00m                          [00;34mefrank[00m      [00;34mjleon[00m     [00;34mmelvills[00m  [00;34mrmoseley[00m   [00;34mteam07[00m
+[00;34mafierros[00m   [00;34mcbeck[00m                             [00;34mehunt[00m       [00;34mjmoran[00m    [00;34mmesa[00m      [00;34mrobinson[00m   [00;34mteam08[00m
+[00;34mafowler[00m    [00;34mcbekker[00m                           [00;34memendoza[00m    [00;34mjmuller[00m   [00;34mmeyreles[00m  [00;34mrogerc[00m     [00;34mteam09[00m
+[00;34mafuad[00m      [00;34mcbottini[00m                          [00;34memiller[00m     [00;34mjmurazzo[00m  [00;34mmford[00m     [00;34mrogerz[00m     [00;34mteam10[00m
+[00;34magraham[00m    [00;34mccanul[00m                            [00;34memurphy[00m     [00;34mjnelson[00m   [00;34mmfreeman[00m  [00;34mrotstein[00m   [00;34mteam11[00m
+[00;34magriffith[00m  [00;34mccarter[00m                           [00;34meolsen[00m      [00;34mjneong[00m    [00;34mmfritz[00m    [00;34mrrussell[00m   [00;34mteam12[00m
+[00;34mahadden[00m    [00;34mcduran[00m                            [00;34merauch[00m      [00;34mjneugass[00m  [00;34mmgarcia[00m   [00;34mrshaul[00m     [00;34mteam13[00m
+[00;34mahaines[00m    [00;34mcflynn[00m                            [00;34mereyes[00m      [00;34mjobrien[00m   [00;34mmharris[00m   [00;34mrsmith[00m     [00;34mteam14[00m
+[00;34mahall[00m      [00;34mcford[00m                             [00;34mescamill[00m    [00;34mjpagan[00m    [00;34mmheit[00m     [00;34mrsobotka[00m   [00;34mteam15[00m
+[00;34mahuss[00m      [00;34mchastain[00m                          [00;34meshort[00m      [00;34mjpham[00m     [00;34mmhower[00m    [00;34mrsolomon[00m   [00;34mteam16[00m
+[00;34makozimor[00m   [00;34mchiletti[00m                          [00;34mespinoza[00m    [00;34mjpurkis[00m   [00;34mmichaeli[00m  [00;34mrtedlock[00m   [00;34mteam17[00m
+[00;34makreidle[00m   [00;34mchoff[00m                             [00;34mestabroo[00m    [00;34mjreilly[00m   [00;34mmilliren[00m  [00;34mrthompsn[00m   [00;34mteam18[00m
+[00;34malmanzam[00m   [00;34mchoffman[00m                          [00;34meverhart[00m    [00;34mjrevard[00m   [00;34mmitchell[00m  [00;34mrthysell[00m   [00;34mteam19[00m
+[00;34malmonaci[00m   [00;34mciccolel[00m                          [00;34mewaugh[00m      [00;34mjreyes[00m    [00;34mmkaiser[00m   [00;34mrwall[00m      [00;34mteam20[00m
+[00;34mamancino[00m   [00;34mckwak[00m                             [00;34mewikman[00m     [00;34mjroach[00m    [00;34mmking[00m     [00;34mryoung[00m     [00;34mteam21[00m
+[00;34mamendez[00m    [00;34mclasaga[00m                           [00;34mfernande[00m    [00;34mjsilva[00m    [00;34mmlacorte[00m  [00;34msampsonw[00m   [00;34mteam22[00m
+[00;34mamilenic[00m   [00;34mcmccool[00m                           [00;34mferrando[00m    [00;34mjtanner[00m   [00;34mmlawson[00m   [00;34msbrown[00m     [00;34mteam23[00m
+[00;34mamuth[00m      [00;34mcmefford[00m                          [00;34mfhorvath[00m    [00;34mjtejan[00m    [00;34mmlewis[00m    [00;34msbuendia[00m   [00;34mteam24[00m
+[00;34mandersen[00m   [00;34mcmingoia[00m                          [00mfinger.txt[00m  [00;34mjtraynor[00m  [00;34mmmisener[00m  [00;34mschettle[00m   [00;34mteam25[00m
+[00;34manderson[00m   [00;34mcmorin[00m                            [00;34mfiorenti[00m    [00;34mjwray[00m     [00;34mmnelson[00m   [00;34mschheun[00m    [00;34mteam26[00m
+[00;34mandresen[00m   [00;34mconnolly[00m                          [00;34mfleischm[00m    [00;34mjzeisler[00m  [00;34mmnicolos[00m  [00;34mschiller[00m   [00;34mteam27[00m
+[00;34maperry[00m     [00;34mconsigli[00m                          [00;34mfletcher[00m    [00;34mjzhou[00m     [00;34mmorrison[00m  [00;34mschlicht[00m   [00;34mteam28[00m
+[00;34masierra[00m    [00;34mcontrera[00m                          [00;34mfrancesc[00m    [00;34mkalantar[00m  [00;34mmottashe[00m  [00;34mschmidts[00m   [00;34mteam29[00m
+[00;34masofie[00m     [00;32mcopy_std_setup_files_student.sh[00m   [00;34mfranklin[00m    [00;34mkameron[00m   [00;34mmotten[00m    [00;34mscolias[00m    [00;34mteam30[00m
+[00;34masownie[00m    [00;32mcopy_std_setup_files_student.sh~[00m  [00;34mftamayo[00m     [00;34mkavelar[00m   [00;34mmpeschke[00m  [00;34msdobbins[00m   [00;34mteixeira[00m
+[00;34matang[00m      [00;34mcoylej[00m                            [00;34mfwang[00m       [00;34mkbradley[00m  [00;34mmroak[00m     [00;34msebastia[00m   [00;32mtemp.sh[00m
+[00;34mataylor[00m    [00;34mcrennie[00m                           [00;34mgamestat[00m    [00;34mkcota[00m     [00;34mmroberts[00m  [00;34msehara[00m     [00mtemp.sh~[00m
+[00;34mavietro[00m    [00;34mcs495s09[00m                          [00;34mgcesca[00m      [00;34mkcozart[00m   [00;34mmrohrs[00m    [00;34msfrazier[00m   [00;34mtesm30[00m
+[00;34mawebber[00m    [00;34mcsemple[00m                           [00;34mgdurham[00m     [00;34mkdebrito[00m  [00;34mmryan[00m     [00;34msfuhrman[00m   [00;32mtest.sh[00m
+[00;34mawong[00m      [00;34mcsmith[00m                            [00;34mgerhardt[00m    [00;34mkdraheim[00m  [00;34mmsalinas[00m  [00;34msgordon[00m    [00mtest.sh~[00m
+[00;34mawoodson[00m   [00;34mcstech[00m                            [00;34mgfallat[00m     [00;34mkennedys[00m  [00;34mmseda[00m     [00;34msgriffith[00m  [00;34mtfynan[00m
+[00;34mazakhour[00m   [00;34mcunningh[00m                          [00;34mghenry[00m      [00;34mkfruchey[00m  [00;34mmulroney[00m  [00;34msgulland[00m   [00;34mthompson[00m
+[00;34mazaslove[00m   [00;34mcurnes[00m                            [00;34mghiraldi[00m    [00;34mkfrye[00m     [00;34mmulthauf[00m  [00;34mshall[00m      [00;34mthornber[00m
+[00;34mazzolino[00m   [00;34mcusimano[00m                          [00;34mgiancola[00m    [00;34mkhansen[00m   [00;34mmward[00m     [00;34mshansen[00m    [00;34mtibbetts[00m
+[00;34mbabel[00m      [00;34mcwacker[00m                           [00;34mgiuliani[00m    [00;34mkharnden[00m  [00;34mmwindt[00m    [00;34mshayes[00m     [00;34mtisthamm[00m
+[00;34mbalbert[00m    [00;34mdadler[00m                            [00;34mgjoy[00m        [00;34mkirby[00m     [00;34mnagler[00m    [00;34mshewmake[00m   [00;34mtkool[00m
+[00;34mbbledsoe[00m   [00;34mdahlgren[00m                          [00;34mgkim[00m        [00;34mkmarefat[00m  [00;34mncashman[00m  [00;34mshillingd[00m  [00;34mtlee[00m
+[00;34mbcampisi[00m   [00;34mdalbert[00m                           [00;34mglopez[00m      [00;34mkmartin[00m   [00;34mncherne[00m   [00;34msimingto[00m   [00;34mtspott[00m
+[00;34mbcarte[00m     [00;34mdaughert[00m                          [00;34mglugo[00m       [00;34mkmattila[00m  [00;34mndanos[00m    [00;34msimonell[00m   [00;34mtstark[00m
+[00;34mbcollins[00m   [00;34mdavyg[00m                             [00;34mgonzalez[00m    [00;34mkmunski[00m   [00;34mnellner[00m   [00;34msklamm[00m     [00;34mttate[00m
+[00;34mbdober[00m     [00;34mdbeddow[00m                           [00;34mgruenhag[00m    [00;34mknippen[00m   [00;34mnlambert[00m  [00;34mskocypec[00m   [00;34mtvaldez[00m
+[00;34mbenedett[00m   [00;34mdborg[00m                             [00;34mgscott[00m      [00;34mkprasad[00m   [00;34mnmorrill[00m  [00;34mskolnik[00m    [00;34mugoreva[00m
+[00;34mbernstei[00m   [00;34mdchisler[00m                          [00;34mgutierre[00m    [00;34mkriewall[00m  [00;34mnmunoz[00m    [00;34mskumari[00m    [00;34mvanblake[00m
+[00;34mberwaldt[00m   [00;34mdcoons[00m                            [00;34mgwellman[00m    [00;34mkrupp[00m     [00;34mnpesa[00m     [00;34mskyles[00m     [00;34mvasconce[00m
+[00;34mbfalk[00m      [00;34mddemarta[00m                          [00;34mhamilton[00m    [00;34mksage[00m     [00;34mnspann[00m    [00;34msleake[00m     [00;34mvinglima[00m
+[00;34mbfuller[00m    [00;34mddepaolo[00m                          [00;34mhbrown[00m      [00;34mkseaholm[00m  [00;34mnzunino[00m   [00;34msluk[00m       [00;34mvmorrow[00m
+[00;34mbgarcia[00m    [00;34mdeidrick[00m                          [00;34mhchung[00m      [00;34mktharp[00m    [00;34modonnell[00m  [00;34msmalain[00m    [00;34mwashingt[00m
+[00;34mbharris[00m    [00;34mdemarcor[00m                          [00;34mhenderso[00m    [34;42mktripp[00m    [00;34momaszk[00m    [00;34msmolensk[00m   [00;34mwfreitas[00m
+[00;34mbinalinb[00m   [00;34mdensmore[00m                          [00;34mhillsj[00m      [00;34mkweber[00m    [00;34momelveny[00m  [00;34msmontoya[00m   [00;34mwhitaker[00m
+[00;34mbkessell[00m   [00;34mdesormie[00m                          [00;34mhmwiti[00m      [00;34mkwoods[00m    [00;34moneillp[00m   [00;34msnelson[00m    [00;34mwhyme[00m
+[00;34mbkuhlman[00m   [00;34mdfarwell[00m                          [00;34mhturner[00m     [00;34mkyost[00m     [00;34moverhous[00m  [00;34msnewman[00m    [00;34mwilkerso[00m
+[00;34mblacksmi[00m   [00;34mdfields[00m                           [00;34mhumphrey[00m    [00;34mlarrabur[00m  [00;34mpabold[00m    [00;34msnguyen[00m    [00;34mwilkinso[00m
+[00;34mblucas[00m     [00;34mdfoley[00m                            [00;34mhvuong[00m      [00;34mlawrence[00m  [00;34mpalomare[00m  [00;34msparmley[00m   [00;34mwineland[00m
+[00;34mbmcbride[00m   [00;34mdgarber[00m                           [00;34miaragon[00m     [00;34mlbailey[00m   [00;34mpaniagua[00m  [00;34mspeters[00m    [00;34mwkim[00m
+[00;34mbmondo[00m     [00;34mdhorn[00m                             [00;34mimobley[00m     [00;34mlchoden[00m   [00;34mpaterson[00m  [00;34mspraguej[00m   [00;34mwlacher[00m
+[00;34mbpierce[00m    [00;34mdhower[00m                            [00;34minbalans[00m    [00;34mledbette[00m  [00;34mpbrault[00m   [00;34msroelke[00m    [00;34mwmartin[00m
+[00;34mbputhuff[00m   [00;34mdhudson[00m                           [00;34mjaguirre[00m    [00;34mllinton[00m   [00;34mpeterson[00m  [00;34msrubin[00m     [00;34mwmelani[00m
+[00;34mbrackle[00m    [00;34mdjohnson[00m                          [00;34mjbaca[00m       [00;34mllopez[00m    [00;34mpfine[00m     [00;34msrutka[00m     [00;34mwpetker[00m
+[00;34mbrengel[00m    [00;34mdjones[00m                            [00;34mjbecker[00m     [00;34mlnorton[00m   [00;34mphenry[00m    [00;34msscurry[00m    [00;34mwraus[00m
+[00;34mbrewere[00m    [00;34mdleung[00m                            [00;34mjbibian[00m     [00;34mlockwood[00m  [00;34mpitchell[00m  [00;34msseibel[00m    [00;34mwtam[00m
+[00;34mbridgema[00m   [00;34mdlinehan[00m                          [00;34mjcarey[00m      [00;34mloudermi[00m  [00;34mplachnow[00m  [00;34mssingh[00m     [00;34myegiazar[00m
+[00;34mbroley[00m     [00;34mdmay[00m                              [00;34mjcombs[00m      [00;34mlpeters[00m   [00;34mpmaddox[00m   [00;34mssurovec[00m   [00;34myqi[00m
+[00;34mbschultz[00m   [00;34mdmcgee[00m                            [00;34mjdisbrow[00m    [00;34mlucidp[00m    [00;34mponeill[00m   [00;34msteenwyk[00m   [00;34myxu[00m
+[00;34mbshadoan[00m   [00;34mdmraz[00m                             [00;34mjean[00m        [00;34mmaksutov[00m  [00;34mporrazzo[00m  [00;34mstest[00m      [00;34mzhornist[00m
+[00;34mbshepard[00m   [00;34mdobrzyns[00m                          [00;34mjenseni[00m     [00;34mmartinde[00m  [00;34mprincel[00m   [00;34msthorpe[00m    [00;34mzstrickl[00m
+[00;34mbterrell[00m   [00;34mdorloff[00m                           [00;34mjevert[00m      [00;34mmartinez[00m  [00;34mprochazk[00m  [00;34mstrickla[00m   [00;34mzucherma[00m
+[00;34mbtietz[00m     [00;34mdornelas[00m                          [00;34mjfahle[00m      [00;34mmatsumot[00m  [00;34mprohorof[00m  [00;34msvaldes[00m    [00;34mzurawski[00m
+[00;34mbtontz[00m     [00;34mdovea[00m                             [00;34mjfisher[00m     [00;34mmaxume[00m    [00;34mpugliese[00m  [00;34mswadood[00m
+[00;34mbtorchia[00m   [00;34mdryan[00m                             [00;34mjfitch[00m      [00;34mmbarrow[00m   [00;34mqtrinh[00m    [00;34mswarren[00m
+[00;34mbvolheim[00m   [00;34mdsamson[00m                           [00;34mjflores[00m     [00;34mmbrooks[00m   [00;34mquarters[00m  [00;34mtalton[00m
+[00;34mbwake[00m      [00;34mdsanchez[00m                          [00;34mjgentile[00m    [00;34mmcarrier[00m  [00;34mradtkefr[00m  [00;34mtatallah[00m
+[00;34mbwright[00m    [00;34mdshields[00m                          [00;34mjgibbs[00m      [00;34mmcdonald[00m  [00;34mravi[00m      [00;34mtbailey[00m
+[00;34mbyronbon[00m   [00;34mdsmith[00m                            [00;34mjgregori[00m    [00;34mmcfarlan[00m  [00;34mrcameron[00m  [00;34mtchen[00m
+[m]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ cd ..
+]0;cbekker@cwolf:/home[cbekker@cwolf home]$ ls
+[00m[00;34mfaculty[00m  [00;34minstall[00m  [00;34mraven[00m  [00;34mstudent[00m
+[m]0;cbekker@cwolf:/home[cbekker@cwolf home]$ cd ..     cd student
+]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ cd abravo
+]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ ls
+[00m[00;34mPractice[00m  [00mabravo.Lab1[00m  [00mabravo.txt.[00m        [00mbravo.mail[00m   [00;34mcs115[00m   [00;34mcs215[00m
+[00;34mTest[00m      [00mabravo.txt[00m   [00mabravo.txt.heioej[00m  [00mbravo.mail~[00m  [00;34mcs115w[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ r,svd     r,m   emacs       cd cs s214
+bash: cd: cs214: No such file or directory
+]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ cd cs2154 
+bash: cd: cs215: Permission denied
+]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ clear
+[H[2J]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ ls
+[00m[00;34mPractice[00m  [00mabravo.Lab1[00m  [00mabravo.txt.[00m        [00mbravo.mail[00m   [00;34mcs115[00m   [00;34mcs215[00m
+[00;34mTest[00m      [00mabravo.txt[00m   [00mabravo.txt.heioej[00m  [00mbravo.mail~[00m  [00;34mcs115w[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:/home/student/abravo[cbekker@cwolf abravo]$ cd ..
+]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ ls
+[00m[00;34maadema[00m     [00;34mcaballer[00m                          [00;34mdturover[00m    [00;34mjharnden[00m  [00;34mmcgaughy[00m  [00;34mrcarlson[00m   [00;34mtdawson[00m
+[00;34maafaese[00m    [00;34mcadame[00m                            [00;34mdummy1[00m      [00;34mjhetrick[00m  [00;34mmchen[00m     [00;34mresources[00m  [00;34mtdoughty[00m
+[00;34mablodow[00m    [00;34mcalabres[00m                          [00;34mdummy2[00m      [00;34mjhickman[00m  [00;34mmckenney[00m  [00;34mrfarmer[00m    [00;34mteam01[00m
+[00;34mabravo[00m     [00;34mcampbeas[00m                          [00;34mdwoloz[00m      [00;34mjjohnson[00m  [00;34mmckinstr[00m  [00;34mrfuller[00m    [00;34mteam02[00m
+[00;34macazarez[00m   [00;34mcamposro[00m                          [00;34mebrahimi[00m    [00;34mjkaiser[00m   [00;34mmcowan[00m    [00;34mrgibble[00m    [00;34mteam03[00m
+[00;34macesca[00m     [00;34mcarstens[00m                          [00;34meconnors[00m    [00;34mjkelly[00m    [00;34mmcwillia[00m  [00;34mrgomez[00m     [00;34mteam04[00m
+[00;34maedinoff[00m   [00;34mcasciani[00m                          [00;34medimond[00m     [00;34mjkemp[00m     [00;34mmdennen[00m   [00;34mrichards[00m   [00;34mteam05[00m
+[00;34maestrugo[00m   [00;34mcastlema[00m                          [00;34mefloric[00m     [00;34mjking[00m     [00;34mmeliaser[00m  [00;34mrmarnell[00m   [00;34mteam06[00m
+[00;34maevans[00m     [00;34mcavallar[00m                          [00;34mefrank[00m      [00;34mjleon[00m     [00;34mmelvills[00m  [00;34mrmoseley[00m   [00;34mteam07[00m
+[00;34mafierros[00m   [00;34mcbeck[00m                             [00;34mehunt[00m       [00;34mjmoran[00m    [00;34mmesa[00m      [00;34mrobinson[00m   [00;34mteam08[00m
+[00;34mafowler[00m    [00;34mcbekker[00m                           [00;34memendoza[00m    [00;34mjmuller[00m   [00;34mmeyreles[00m  [00;34mrogerc[00m     [00;34mteam09[00m
+[00;34mafuad[00m      [00;34mcbottini[00m                          [00;34memiller[00m     [00;34mjmurazzo[00m  [00;34mmford[00m     [00;34mrogerz[00m     [00;34mteam10[00m
+[00;34magraham[00m    [00;34mccanul[00m                            [00;34memurphy[00m     [00;34mjnelson[00m   [00;34mmfreeman[00m  [00;34mrotstein[00m   [00;34mteam11[00m
+[00;34magriffith[00m  [00;34mccarter[00m                           [00;34meolsen[00m      [00;34mjneong[00m    [00;34mmfritz[00m    [00;34mrrussell[00m   [00;34mteam12[00m
+[00;34mahadden[00m    [00;34mcduran[00m                            [00;34merauch[00m      [00;34mjneugass[00m  [00;34mmgarcia[00m   [00;34mrshaul[00m     [00;34mteam13[00m
+[00;34mahaines[00m    [00;34mcflynn[00m                            [00;34mereyes[00m      [00;34mjobrien[00m   [00;34mmharris[00m   [00;34mrsmith[00m     [00;34mteam14[00m
+[00;34mahall[00m      [00;34mcford[00m                             [00;34mescamill[00m    [00;34mjpagan[00m    [00;34mmheit[00m     [00;34mrsobotka[00m   [00;34mteam15[00m
+[00;34mahuss[00m      [00;34mchastain[00m                          [00;34meshort[00m      [00;34mjpham[00m     [00;34mmhower[00m    [00;34mrsolomon[00m   [00;34mteam16[00m
+[00;34makozimor[00m   [00;34mchiletti[00m                          [00;34mespinoza[00m    [00;34mjpurkis[00m   [00;34mmichaeli[00m  [00;34mrtedlock[00m   [00;34mteam17[00m
+[00;34makreidle[00m   [00;34mchoff[00m                             [00;34mestabroo[00m    [00;34mjreilly[00m   [00;34mmilliren[00m  [00;34mrthompsn[00m   [00;34mteam18[00m
+[00;34malmanzam[00m   [00;34mchoffman[00m                          [00;34meverhart[00m    [00;34mjrevard[00m   [00;34mmitchell[00m  [00;34mrthysell[00m   [00;34mteam19[00m
+[00;34malmonaci[00m   [00;34mciccolel[00m                          [00;34mewaugh[00m      [00;34mjreyes[00m    [00;34mmkaiser[00m   [00;34mrwall[00m      [00;34mteam20[00m
+[00;34mamancino[00m   [00;34mckwak[00m                             [00;34mewikman[00m     [00;34mjroach[00m    [00;34mmking[00m     [00;34mryoung[00m     [00;34mteam21[00m
+[00;34mamendez[00m    [00;34mclasaga[00m                           [00;34mfernande[00m    [00;34mjsilva[00m    [00;34mmlacorte[00m  [00;34msampsonw[00m   [00;34mteam22[00m
+[00;34mamilenic[00m   [00;34mcmccool[00m                           [00;34mferrando[00m    [00;34mjtanner[00m   [00;34mmlawson[00m   [00;34msbrown[00m     [00;34mteam23[00m
+[00;34mamuth[00m      [00;34mcmefford[00m                          [00;34mfhorvath[00m    [00;34mjtejan[00m    [00;34mmlewis[00m    [00;34msbuendia[00m   [00;34mteam24[00m
+[00;34mandersen[00m   [00;34mcmingoia[00m                          [00mfinger.txt[00m  [00;34mjtraynor[00m  [00;34mmmisener[00m  [00;34mschettle[00m   [00;34mteam25[00m
+[00;34manderson[00m   [00;34mcmorin[00m                            [00;34mfiorenti[00m    [00;34mjwray[00m     [00;34mmnelson[00m   [00;34mschheun[00m    [00;34mteam26[00m
+[00;34mandresen[00m   [00;34mconnolly[00m                          [00;34mfleischm[00m    [00;34mjzeisler[00m  [00;34mmnicolos[00m  [00;34mschiller[00m   [00;34mteam27[00m
+[00;34maperry[00m     [00;34mconsigli[00m                          [00;34mfletcher[00m    [00;34mjzhou[00m     [00;34mmorrison[00m  [00;34mschlicht[00m   [00;34mteam28[00m
+[00;34masierra[00m    [00;34mcontrera[00m                          [00;34mfrancesc[00m    [00;34mkalantar[00m  [00;34mmottashe[00m  [00;34mschmidts[00m   [00;34mteam29[00m
+[00;34masofie[00m     [00;32mcopy_std_setup_files_student.sh[00m   [00;34mfranklin[00m    [00;34mkameron[00m   [00;34mmotten[00m    [00;34mscolias[00m    [00;34mteam30[00m
+[00;34masownie[00m    [00;32mcopy_std_setup_files_student.sh~[00m  [00;34mftamayo[00m     [00;34mkavelar[00m   [00;34mmpeschke[00m  [00;34msdobbins[00m   [00;34mteixeira[00m
+[00;34matang[00m      [00;34mcoylej[00m                            [00;34mfwang[00m       [00;34mkbradley[00m  [00;34mmroak[00m     [00;34msebastia[00m   [00;32mtemp.sh[00m
+[00;34mataylor[00m    [00;34mcrennie[00m                           [00;34mgamestat[00m    [00;34mkcota[00m     [00;34mmroberts[00m  [00;34msehara[00m     [00mtemp.sh~[00m
+[00;34mavietro[00m    [00;34mcs495s09[00m                          [00;34mgcesca[00m      [00;34mkcozart[00m   [00;34mmrohrs[00m    [00;34msfrazier[00m   [00;34mtesm30[00m
+[00;34mawebber[00m    [00;34mcsemple[00m                           [00;34mgdurham[00m     [00;34mkdebrito[00m  [00;34mmryan[00m     [00;34msfuhrman[00m   [00;32mtest.sh[00m
+[00;34mawong[00m      [00;34mcsmith[00m                            [00;34mgerhardt[00m    [00;34mkdraheim[00m  [00;34mmsalinas[00m  [00;34msgordon[00m    [00mtest.sh~[00m
+[00;34mawoodson[00m   [00;34mcstech[00m                            [00;34mgfallat[00m     [00;34mkennedys[00m  [00;34mmseda[00m     [00;34msgriffith[00m  [00;34mtfynan[00m
+[00;34mazakhour[00m   [00;34mcunningh[00m                          [00;34mghenry[00m      [00;34mkfruchey[00m  [00;34mmulroney[00m  [00;34msgulland[00m   [00;34mthompson[00m
+[00;34mazaslove[00m   [00;34mcurnes[00m                            [00;34mghiraldi[00m    [00;34mkfrye[00m     [00;34mmulthauf[00m  [00;34mshall[00m      [00;34mthornber[00m
+[00;34mazzolino[00m   [00;34mcusimano[00m                          [00;34mgiancola[00m    [00;34mkhansen[00m   [00;34mmward[00m     [00;34mshansen[00m    [00;34mtibbetts[00m
+[00;34mbabel[00m      [00;34mcwacker[00m                           [00;34mgiuliani[00m    [00;34mkharnden[00m  [00;34mmwindt[00m    [00;34mshayes[00m     [00;34mtisthamm[00m
+[00;34mbalbert[00m    [00;34mdadler[00m                            [00;34mgjoy[00m        [00;34mkirby[00m     [00;34mnagler[00m    [00;34mshewmake[00m   [00;34mtkool[00m
+[00;34mbbledsoe[00m   [00;34mdahlgren[00m                          [00;34mgkim[00m        [00;34mkmarefat[00m  [00;34mncashman[00m  [00;34mshillingd[00m  [00;34mtlee[00m
+[00;34mbcampisi[00m   [00;34mdalbert[00m                           [00;34mglopez[00m      [00;34mkmartin[00m   [00;34mncherne[00m   [00;34msimingto[00m   [00;34mtspott[00m
+[00;34mbcarte[00m     [00;34mdaughert[00m                          [00;34mglugo[00m       [00;34mkmattila[00m  [00;34mndanos[00m    [00;34msimonell[00m   [00;34mtstark[00m
+[00;34mbcollins[00m   [00;34mdavyg[00m                             [00;34mgonzalez[00m    [00;34mkmunski[00m   [00;34mnellner[00m   [00;34msklamm[00m     [00;34mttate[00m
+[00;34mbdober[00m     [00;34mdbeddow[00m                           [00;34mgruenhag[00m    [00;34mknippen[00m   [00;34mnlambert[00m  [00;34mskocypec[00m   [00;34mtvaldez[00m
+[00;34mbenedett[00m   [00;34mdborg[00m                             [00;34mgscott[00m      [00;34mkprasad[00m   [00;34mnmorrill[00m  [00;34mskolnik[00m    [00;34mugoreva[00m
+[00;34mbernstei[00m   [00;34mdchisler[00m                          [00;34mgutierre[00m    [00;34mkriewall[00m  [00;34mnmunoz[00m    [00;34mskumari[00m    [00;34mvanblake[00m
+[00;34mberwaldt[00m   [00;34mdcoons[00m                            [00;34mgwellman[00m    [00;34mkrupp[00m     [00;34mnpesa[00m     [00;34mskyles[00m     [00;34mvasconce[00m
+[00;34mbfalk[00m      [00;34mddemarta[00m                          [00;34mhamilton[00m    [00;34mksage[00m     [00;34mnspann[00m    [00;34msleake[00m     [00;34mvinglima[00m
+[00;34mbfuller[00m    [00;34mddepaolo[00m                          [00;34mhbrown[00m      [00;34mkseaholm[00m  [00;34mnzunino[00m   [00;34msluk[00m       [00;34mvmorrow[00m
+[00;34mbgarcia[00m    [00;34mdeidrick[00m                          [00;34mhchung[00m      [00;34mktharp[00m    [00;34modonnell[00m  [00;34msmalain[00m    [00;34mwashingt[00m
+[00;34mbharris[00m    [00;34mdemarcor[00m                          [00;34mhenderso[00m    [34;42mktripp[00m    [00;34momaszk[00m    [00;34msmolensk[00m   [00;34mwfreitas[00m
+[00;34mbinalinb[00m   [00;34mdensmore[00m                          [00;34mhillsj[00m      [00;34mkweber[00m    [00;34momelveny[00m  [00;34msmontoya[00m   [00;34mwhitaker[00m
+[00;34mbkessell[00m   [00;34mdesormie[00m                          [00;34mhmwiti[00m      [00;34mkwoods[00m    [00;34moneillp[00m   [00;34msnelson[00m    [00;34mwhyme[00m
+[00;34mbkuhlman[00m   [00;34mdfarwell[00m                          [00;34mhturner[00m     [00;34mkyost[00m     [00;34moverhous[00m  [00;34msnewman[00m    [00;34mwilkerso[00m
+[00;34mblacksmi[00m   [00;34mdfields[00m                           [00;34mhumphrey[00m    [00;34mlarrabur[00m  [00;34mpabold[00m    [00;34msnguyen[00m    [00;34mwilkinso[00m
+[00;34mblucas[00m     [00;34mdfoley[00m                            [00;34mhvuong[00m      [00;34mlawrence[00m  [00;34mpalomare[00m  [00;34msparmley[00m   [00;34mwineland[00m
+[00;34mbmcbride[00m   [00;34mdgarber[00m                           [00;34miaragon[00m     [00;34mlbailey[00m   [00;34mpaniagua[00m  [00;34mspeters[00m    [00;34mwkim[00m
+[00;34mbmondo[00m     [00;34mdhorn[00m                             [00;34mimobley[00m     [00;34mlchoden[00m   [00;34mpaterson[00m  [00;34mspraguej[00m   [00;34mwlacher[00m
+[00;34mbpierce[00m    [00;34mdhower[00m                            [00;34minbalans[00m    [00;34mledbette[00m  [00;34mpbrault[00m   [00;34msroelke[00m    [00;34mwmartin[00m
+[00;34mbputhuff[00m   [00;34mdhudson[00m                           [00;34mjaguirre[00m    [00;34mllinton[00m   [00;34mpeterson[00m  [00;34msrubin[00m     [00;34mwmelani[00m
+[00;34mbrackle[00m    [00;34mdjohnson[00m                          [00;34mjbaca[00m       [00;34mllopez[00m    [00;34mpfine[00m     [00;34msrutka[00m     [00;34mwpetker[00m
+[00;34mbrengel[00m    [00;34mdjones[00m                            [00;34mjbecker[00m     [00;34mlnorton[00m   [00;34mphenry[00m    [00;34msscurry[00m    [00;34mwraus[00m
+[00;34mbrewere[00m    [00;34mdleung[00m                            [00;34mjbibian[00m     [00;34mlockwood[00m  [00;34mpitchell[00m  [00;34msseibel[00m    [00;34mwtam[00m
+[00;34mbridgema[00m   [00;34mdlinehan[00m                          [00;34mjcarey[00m      [00;34mloudermi[00m  [00;34mplachnow[00m  [00;34mssingh[00m     [00;34myegiazar[00m
+[00;34mbroley[00m     [00;34mdmay[00m                              [00;34mjcombs[00m      [00;34mlpeters[00m   [00;34mpmaddox[00m   [00;34mssurovec[00m   [00;34myqi[00m
+[00;34mbschultz[00m   [00;34mdmcgee[00m                            [00;34mjdisbrow[00m    [00;34mlucidp[00m    [00;34mponeill[00m   [00;34msteenwyk[00m   [00;34myxu[00m
+[00;34mbshadoan[00m   [00;34mdmraz[00m                             [00;34mjean[00m        [00;34mmaksutov[00m  [00;34mporrazzo[00m  [00;34mstest[00m      [00;34mzhornist[00m
+[00;34mbshepard[00m   [00;34mdobrzyns[00m                          [00;34mjenseni[00m     [00;34mmartinde[00m  [00;34mprincel[00m   [00;34msthorpe[00m    [00;34mzstrickl[00m
+[00;34mbterrell[00m   [00;34mdorloff[00m                           [00;34mjevert[00m      [00;34mmartinez[00m  [00;34mprochazk[00m  [00;34mstrickla[00m   [00;34mzucherma[00m
+[00;34mbtietz[00m     [00;34mdornelas[00m                          [00;34mjfahle[00m      [00;34mmatsumot[00m  [00;34mprohorof[00m  [00;34msvaldes[00m    [00;34mzurawski[00m
+[00;34mbtontz[00m     [00;34mdovea[00m                             [00;34mjfisher[00m     [00;34mmaxume[00m    [00;34mpugliese[00m  [00;34mswadood[00m
+[00;34mbtorchia[00m   [00;34mdryan[00m                             [00;34mjfitch[00m      [00;34mmbarrow[00m   [00;34mqtrinh[00m    [00;34mswarren[00m
+[00;34mbvolheim[00m   [00;34mdsamson[00m                           [00;34mjflores[00m     [00;34mmbrooks[00m   [00;34mquarters[00m  [00;34mtalton[00m
+[00;34mbwake[00m      [00;34mdsanchez[00m                          [00;34mjgentile[00m    [00;34mmcarrier[00m  [00;34mradtkefr[00m  [00;34mtatallah[00m
+[00;34mbwright[00m    [00;34mdshields[00m                          [00;34mjgibbs[00m      [00;34mmcdonald[00m  [00;34mravi[00m      [00;34mtbailey[00m
+[00;34mbyronbon[00m   [00;34mdsmith[00m                            [00;34mjgregori[00m    [00;34mmcfarlan[00m  [00;34mrcameron[00m  [00;34mtchen[00m
+[m]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ cd ..
+]0;cbekker@cwolf:/home[cbekker@cwolf home]$ ;s  ls
+[00m[00;34mfaculty[00m  [00;34minstall[00m  [00;34mraven[00m  [00;34mstudent[00m
+[m]0;cbekker@cwolf:/home[cbekker@cwolf home]$ cd //  ..
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ;s  ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlib64[00m       [00;34mmedia[00m  [00;34mopt[00m   [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mlost+found[00m  [00;34mmnt[00m    [00;34mproc[00m  [00;34msbin[00m  [00;34msrv[00m      [30;42mtmp[00m  [00;34mvar[00m
+[m]0;cbekker@cwolf:/[cbekker@cwolf /]$ cd ..
+]0;cbekker@cwolf:/[cbekker@cwolf /]$ ls
+[00m[00;34mbin[00m   [00;34mdev[00m  [00;34mhome[00m  [00;34mlib64[00m       [00;34mmedia[00m  [00;34mopt[00m   [00;34mroot[00m  [00;34mselinux[00m  [00;34msys[00m  [00;34musr[00m
+[00;34mboot[00m  [00;34metc[00m  [00;34mlib[00m   [00;34mlost+found[00m  [00;34mmnt[00m    [00;34mproc[00m  [00;34msbin[00m  [00;34msrv[00m      [30;42mtmp[00m  [00;34mvar[00m
+[m]0;cbekker@cwolf:/[cbekker@cwolf /]$ cd st  home
+]0;cbekker@cwolf:/home[cbekker@cwolf home]$ ls
+[00m[00;34mfaculty[00m  [00;34minstall[00m  [00;34mraven[00m  [00;34mstudent[00m
+[m]0;cbekker@cwolf:/home[cbekker@cwolf home]$ cd student
+]0;cbekker@cwolf:/home/student[cbekker@cwolf student]$ cd cbekker
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ ls
+[00m[00mcorybekker.Lab1[00m  [00;34mcs115[00m  [00;34mcs115w[00m  [00;34mcs215[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:~[cbekker@cwolf ~]$ cd cs214 5
+]0;cbekker@cwolf:~/cs215[cbekker@cwolf cs215]$ cd ..
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ more/ect/passwd
+bash: more/ect/passwd: No such file or directory
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ more/ect/passwd[1P[1P[1@t[1@c
+bash: more/etc/passwd: No such file or directory
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ more/etc/passwd[1@ 
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+distcache:x:94:94:Distcache:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkituser:x:87:87:PolicyKit:/:/sbin/nologin
+pulse:x:499:496:PulseAudio daemon:/:/sbin/nologin
+avahi:x:498:493:avahi-daemon:/var/run/avahi-daemon:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+openvpn:x:497:492:OpenVPN:/etc/openvpn:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:4294967294:491:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+smolt:x:496:490:Smolt:/usr/share/smolt:/sbin/nologin
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+webalizer:x:67:67:Webalizer:/var/www/usage:/sbin/nologin
+dovecot:x:97:97:dovecot:/usr/libexec/dovecot:/sbin/nologin
+torrent:x:495:487:BitTorrent Seed/Tracker:/var/lib/bittorrent:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+squid:x:23:23::/var/spool/squid:/sbin/nologin
+backuppc:x:494:486::/var/lib/BackupPC:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat5:/bin/sh
+jetty:x:493:485::/usr/share/jetty:/bin/sh
+raven:x:500:500:raven:/home/raven:/bin/bash
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+www:x:70:70::/home/www:/sbin/nologin
+install:x:35602:35603::/home/install:/bin/bash
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ more /etc/passwd[Kger  rep corybekker/etc/passwd
+^C
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ grep corybekker/etc/passwd[1P[1P[1P
+^C
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ grep cbekker/etc/passwd[1@ 
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ grep cbekker /etc/passwd
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ finger nekker      bekker
+Login: cbekker        			Name: Cory Rene Bekker
+Directory: /home/student/cbekker    	Shell: /bin/bash
+On since Mon Feb 14 10:02 (PST) on pts/8 from ssu-cs-dar25-167-142.sonoma.edu
+No mail.
+No Plan.
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ man finger
+[?1049h[?1h=FINGER(1)                 BSD General Commands Manual                FINGER(1)
+
+[1mNAME[0m
+     [1mfinger[0m - user information lookup program
+
+[1mSYNOPSIS[0m
+     [1mfinger[0m [[1m-lmsp[0m] [[4muser[24m [4m...[24m] [[4muser@host[24m [4m...[24m]
+
+[1mDESCRIPTION[0m
+     The [1mfinger[0m displays information about the system users.
+
+     Options are:
+
+     [1m-s[0m    [1mFinger[0m displays the user's login name, real name, terminal name and write sta-
+           tus (as a ''*'' after the terminal name if write permission is denied), idle
+           time, login time, office location and office phone number.
+
+           Login time is displayed as month, day, hours and minutes, unless more than six
+           months ago, in which case the year is displayed rather than the hours and min-
+           utes.
+
+           Unknown devices as well as nonexistent idle and login times are displayed as
+           single asterisks.
+
+     [1m-l[0m    Produces a multi-line format displaying all of the information described for
+           the [1m-s[0m option as well as the user's home directory, home phone number, login
+           shell, mail status, and the contents of the files "[4m.plan[24m", "[4m.project[24m",
+           "[4m.pgpkey[24m" and "[4m.forward[24m" from the user's home directory.
+
+           Phone numbers specified as eleven digits are printed as ''+N-NNN-NNN-NNNN''.
+           Numbers specified as ten or seven digits are printed as the appropriate subset
+           of that string.  Numbers specified as five digits are printed as ''xN-NNNN''.
+           Numbers specified as four digits are printed as ''xNNNN''.
+
+           If write permission is denied to the device, the phrase ''(messages off)'' is
+           appended to the line containing the device name.  One entry per user is dis-
+           played with the [1m-l[0m option; if a user is logged on multiple times, terminal
+           information is repeated once per login.
+
+           Mail status is shown as ''No Mail.'' if there is no mail at all, ''Mail last
+           read DDD MMM ## HH:MM YYYY (TZ)'' if the person has looked at their mailbox
+           since new mail arriving, or ''New mail received ...'', ''  Unread since ...''
+           if they have new mail.
+
+     [1m-p[0m    Prevents the [1m-l[0m option of [1mfinger[0m from displaying the contents of the "[4m.plan[24m",
+           "[4m.project[24m" and "[4m.pgpkey[24m" files.
+
+     [1m-m[0m    Prevent matching of [4muser[24m names.  [4mUser[24m is usually a login name; however, match-
+           ing will also be done on the users' real names, unless the [1m-m[0m option is sup-
+           plied.  All name matching performed by [1mfinger[0m is case insensitive.
+
+     If no options are specified, [1mfinger[0m defaults to the [1m-l[0m style output if operands are
+     provided, otherwise to the [1m-s[0m style.  Note that some fields may be missing, in either
+     format, if information is not available for them.
+
+     If no arguments are specified, [1mfinger[0m will print an entry for each user currently
+:[K[K[?1l>[?1049l]0;cbekker@cwolf:~[cbekker@cwolf ~]$ ls
+[00m[00mcorybekker.Lab1[00m  [00;34mcs115[00m  [00;34mcs115w[00m  [00;34mcs215[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:~[cbekker@cwolf ~]$ ls -a
+[00m[00;34m.[00m   [00m.bash_history[00m  [00m.bash_profile[00m  [00;34m.ccache[00m  [00;34m.emacs.d[00m  [00m.viminfo[00m  [00m.zshrc[00m           [00;34mcs115[00m   [00;34mcs215[00m
+[00;34m..[00m  [00m.bash_logout[00m   [00m.bashrc[00m        [00m.emacs[00m   [00;34m.kde[00m      [00;34m.xemacs[00m   [00mcorybekker.Lab1[00m  [00;34mcs115w[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:~[cbekker@cwolf ~]$ mkdir cs210
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ ls
+[00m[00mcorybekker.Lab1[00m  [00;34mcs115[00m  [00;34mcs115w[00m  [00;34mcs210[00m  [00;34mcs215[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:~[cbekker@cwolf ~]$ cd cs210
+]0;cbekker@cwolf:~/cs210[cbekker@cwolf cs210]$ rm cd21- 0
+rm: cannot remove `cd210': No such file or directory
+]0;cbekker@cwolf:~/cs210[cbekker@cwolf cs210]$ rm cs210
+rm: cannot remove `cs210': No such file or directory
+]0;cbekker@cwolf:~/cs210[cbekker@cwolf cs210]$ cd ..
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ ls
+[00m[00mcorybekker.Lab1[00m  [00;34mcs115[00m  [00;34mcs115w[00m  [00;34mcs210[00m  [00;34mcs215[00m  [00;34mpublic_html[00m
+[m]0;cbekker@cwolf:~[cbekker@cwolf ~]$ rm cs210
+rm: cannot remove `cs210': Is a directory
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ rmdir cs210
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ man passwd
+[?1049h[?1h=PASSWD(1)                       User utilities                       PASSWD(1)
+
+[1mNAME[0m
+       passwd - update a user's authentication tokens(s)
+
+[1mSYNOPSIS[0m
+       [1mpasswd[0m  [1m[-k][0m  [1m[-l][0m [1m[-u[0m [1m[-f]][0m [1m[-d][0m [1m[-n[0m [1mmindays][0m [1m[-x[0m [1mmaxdays][0m [1m[-w[0m [1mwarndays][0m [1m[-i[0m [1minac-[0m
+       [1mtivedays][0m [1m[-S][0m [1m[--stdin][0m [1m[username][0m
+
+[1mDESCRIPTION[0m
+       Passwd is used to update a user's authentication token(s).
+
+       Passwd is configured to work through the [1mLinux-PAM[0m [1mAPI[0m.  Essentially,  it  initial-
+       izes  itself  as a "passwd" service with [4mLinux-PAM[24m and utilizes configured [4mpassword[24m
+       modules to authenticate and then update a user's password.
+
+       A simple entry in the [4mLinux-PAM[24m configuration file for this service would be:
+
+        #
+        # passwd service entry that does strength checking of
+        # a proposed password before updating it.
+        #
+        passwd password requisite \
+                    /usr/lib/security/pam_cracklib.so retry=3
+        passwd password required \
+                    /usr/lib/security/pam_unix.so use_authtok
+        #
+
+       Note, other module-types are not required for this  application  to  function  cor-
+       rectly.
+
+[1mOPTIONS[0m
+       [1m-k[0m     The  option,  [1m-k[0m,  is  used  to  indicate that the update should only be for
+              expired authentication tokens (passwords); the user  wishes  to  keep  their
+              non-expired tokens as before.
+
+       [1m-l[0m     This  option  is  used  to lock the specified account and it is available to
+              root only. The locking is performed by rendering the encrypted password into
+              an invalid string (by prefixing the encrypted string with an !).
+
+       [1m--stdin[0m
+              This  option  is  used  to indicate that [1mpasswd[0m should read the new password
+              from standard input, which can be a pipe.
+
+       [1m-u[0m     This is the reverse of the -l option - it will unlock the  account  password
+              by  removing the ! prefix. This option is available to root only. By default
+              passwd will refuse to create a passwordless account (it will not  unlock  an
+              account  that has only "!" as a password). The force option [1m-f[0m will override
+              this protection.
+
+       [1m-d[0m     This is a quick way to disable a password for an account. It  will  set  the
+              named account passwordless. Available to root only.
+
+       [1m-n[0m     This  will set the minimum password lifetime, in days, if the user's account
+              supports password lifetimes.  Available to root only.
+
+:[K[K[?1l>[?1049l]0;cbekker@cwolf:~[cbekker@cwolf ~]$ man 1 passwd
+[?1049h[?1h=PASSWD(1)                       User utilities                       PASSWD(1)
+
+[1mNAME[0m
+       passwd - update a user's authentication tokens(s)
+
+[1mSYNOPSIS[0m
+       [1mpasswd[0m  [1m[-k][0m  [1m[-l][0m [1m[-u[0m [1m[-f]][0m [1m[-d][0m [1m[-n[0m [1mmindays][0m [1m[-x[0m [1mmaxdays][0m [1m[-w[0m [1mwarndays][0m [1m[-i[0m [1minac-[0m
+       [1mtivedays][0m [1m[-S][0m [1m[--stdin][0m [1m[username][0m
+
+[1mDESCRIPTION[0m
+       Passwd is used to update a user's authentication token(s).
+
+       Passwd is configured to work through the [1mLinux-PAM[0m [1mAPI[0m.  Essentially,  it  initial-
+       izes  itself  as a "passwd" service with [4mLinux-PAM[24m and utilizes configured [4mpassword[24m
+       modules to authenticate and then update a user's password.
+
+       A simple entry in the [4mLinux-PAM[24m configuration file for this service would be:
+
+        #
+        # passwd service entry that does strength checking of
+        # a proposed password before updating it.
+        #
+        passwd password requisite \
+                    /usr/lib/security/pam_cracklib.so retry=3
+        passwd password required \
+                    /usr/lib/security/pam_unix.so use_authtok
+        #
+
+       Note, other module-types are not required for this  application  to  function  cor-
+       rectly.
+
+[1mOPTIONS[0m
+       [1m-k[0m     The  option,  [1m-k[0m,  is  used  to  indicate that the update should only be for
+              expired authentication tokens (passwords); the user  wishes  to  keep  their
+              non-expired tokens as before.
+
+       [1m-l[0m     This  option  is  used  to lock the specified account and it is available to
+              root only. The locking is performed by rendering the encrypted password into
+              an invalid string (by prefixing the encrypted string with an !).
+
+       [1m--stdin[0m
+              This  option  is  used  to indicate that [1mpasswd[0m should read the new password
+              from standard input, which can be a pipe.
+
+       [1m-u[0m     This is the reverse of the -l option - it will unlock the  account  password
+              by  removing the ! prefix. This option is available to root only. By default
+              passwd will refuse to create a passwordless account (it will not  unlock  an
+              account  that has only "!" as a password). The force option [1m-f[0m will override
+              this protection.
+
+       [1m-d[0m     This is a quick way to disable a password for an account. It  will  set  the
+              named account passwordless. Available to root only.
+
+       [1m-n[0m     This  will set the minimum password lifetime, in days, if the user's account
+              supports password lifetimes.  Available to root only.
+
+:[K[K[?1l>[?1049l]0;cbekker@cwolf:~[cbekker@cwolf ~]$ man 5 passwd
+[?1049h[?1h=PASSWD(5)                  Linux Programmer's Manual                 PASSWD(5)
+
+[1mNAME[0m
+       passwd - password file
+
+[1mDESCRIPTION[0m
+       [1mPasswd[0m  is  a  text file, that contains a list of the system's accounts, giving for
+       each account some useful information like user ID, group ID, home directory, shell,
+       etc.   Often, it also contains the encrypted passwords for each account.  It should
+       have general read permission (many utilities, like [1mls[0m(1) use it to map user IDs  to
+       user names), but write access only for the superuser.
+
+       In  the good old days there was no great problem with this general read permission.
+       Everybody could read the encrypted passwords, but the  hardware  was  too  slow  to
+       crack a well-chosen password, and moreover, the basic assumption used to be that of
+       a friendly user-community.  These days many people run some version of  the  shadow
+       password  suite,  where [4m/etc/passwd[24m has "x" instead of encrypted passwords, and the
+       encrypted passwords are in [4m/etc/shadow[24m which is readable by the superuser only.
+
+       If the encrypted password, whether in /etc/passwd or in /etc/shadow,  is  an  empty
+       string,  login is allowed without even asking for a password.  Note that this func-
+       tionality may be intentionally disabled in applications, or configurable (for exam-
+       ple using the "nullok" or "nonull" arguments to pam_unix.so).
+
+       If the encrypted password in /etc/passwd is "*NP*" (without the quotes), the shadow
+       record should be obtained from a NIS+ server.
+
+       Regardless of whether shadow passwords are used, many sysadmins use an asterisk  in
+       the  encrypted password field to make sure that this user can not authenticate him-
+       or herself using a password. (But see the Notes below.)
+
+       If you create a new login, first put an asterisk in the password  field,  then  use
+       [1mpasswd[0m(1) to set it.
+
+       There is one entry per line, and each line has the format:
+
+              account:password:UID:GID:GECOS:directory:shell
+
+       The field descriptions are:
+
+              [4maccount[24m   the name of the user on the system.  It should not contain capital
+                        letters.
+
+              [4mpassword[24m  the encrypted user password, an asterisk (*), or the  letter  'x'.
+                        (See [1mpwconv[0m(8) for an explanation of 'x'.)
+
+              [4mUID[24m       the numerical user ID.
+
+              [4mGID[24m       the numerical primary group ID for this user.
+
+              [4mGECOS[24m     This  field  is optional and only used for informational purposes.
+                        Usually, it contains the full  user  name.   GECOS  means  General
+                        Electric Comprehensive Operating System, which has been renamed to
+                        GCOS when GE's large systems division was sold to Honeywell.  Den-
+                        nis  Ritchie  has  reported:  "Sometimes we sent printer output or
+                        batch jobs to the GCOS machine.  The gcos field  in  the  password
+:[K[K...skipping...
+
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m
+
+      Commands marked with * may be preceded by a number, [4mN[24m.
+      Notes in parentheses indicate the behavior if [4mN[24m is given.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           [1mMOVING[0m
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).
+  z                 *  Forward  one window (and set window to [4mN[24m).
+  w                 *  Backward one window (and set window to [4mN[24m).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).
+  ESC-)  RightArrow *  Left  one half screen width (or [4mN[24m positions).
+  ESC-(  LeftArrow  *  Right one half screen width (or [4mN[24m positions).
+  F                    Forward forever; like "tail -f".
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          [1mSEARCHING[0m
+
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+        ---------------------------------------------------
+        Search patterns may be modified by one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+ ---------------------------------------------------------------------------
+
+                           [1mJUMPING[0m
+
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).
+  t                 *  Go to the ([4mN[24m-th) next tag.
+  T                 *  Go to the ([4mN[24m-th) previous tag.
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+PASSWD(5)                  Linux Programmer's Manual                 PASSWD(5)
+
+[1mNAME[0m
+       passwd - password file
+
+[1mDESCRIPTION[0m
+       [1mPasswd[0m  is  a  text file, that contains a list of the system's accounts, giving for
+       each account some useful information like user ID, group ID, home directory, shell,
+       etc.   Often, it also contains the encrypted passwords for each account.  It should
+       have general read permission (many utilities, like [1mls[0m(1) use it to map user IDs  to
+       user names), but write access only for the superuser.
+
+       In  the good old days there was no great problem with this general read permission.
+       Everybody could read the encrypted passwords, but the  hardware  was  too  slow  to
+       crack a well-chosen password, and moreover, the basic assumption used to be that of
+       a friendly user-community.  These days many people run some version of  the  shadow
+       password  suite,  where [4m/etc/passwd[24m has "x" instead of encrypted passwords, and the
+       encrypted passwords are in [4m/etc/shadow[24m which is readable by the superuser only.
+
+       If the encrypted password, whether in /etc/passwd or in /etc/shadow,  is  an  empty
+       string,  login is allowed without even asking for a password.  Note that this func-
+       tionality may be intentionally disabled in applications, or configurable (for exam-
+       ple using the "nullok" or "nonull" arguments to pam_unix.so).
+
+       If the encrypted password in /etc/passwd is "*NP*" (without the quotes), the shadow
+       record should be obtained from a NIS+ server.
+
+       Regardless of whether shadow passwords are used, many sysadmins use an asterisk  in
+       the  encrypted password field to make sure that this user can not authenticate him-
+       or herself using a password. (But see the Notes below.)
+
+       If you create a new login, first put an asterisk in the password  field,  then  use
+       [1mpasswd[0m(1) to set it.
+
+       There is one entry per line, and each line has the format:
+
+              account:password:UID:GID:GECOS:directory:shell
+
+       The field descriptions are:
+
+              [4maccount[24m   the name of the user on the system.  It should not contain capital
+                        letters.
+
+              [4mpassword[24m  the encrypted user password, an asterisk (*), or the  letter  'x'.
+                        (See [1mpwconv[0m(8) for an explanation of 'x'.)
+
+              [4mUID[24m       the numerical user ID.
+
+              [4mGID[24m       the numerical primary group ID for this user.
+
+              [4mGECOS[24m     This  field  is optional and only used for informational purposes.
+                        Usually, it contains the full  user  name.   GECOS  means  General
+                        Electric Comprehensive Operating System, which has been renamed to
+                        GCOS when GE's large systems division was sold to Honeywell.  Den-
+                        nis  Ritchie  has  reported:  "Sometimes we sent printer output or
+                        batch jobs to the GCOS machine.  The gcos field  in  the  password
+:[K[K[?1l>[?1049l]0;cbekker@cwolf:~[cbekker@cwolf ~]$ man -k passwd
+SSL_CTX_set_default_passwd_cb [] (3)  - set passwd callback for encrypted PEM file handling
+SSL_CTX_set_default_passwd_cb_userdata [] (3)  - set passwd callback for encrypted PEM file handling
+chpasswd []          (8)  - update passwords in batch mode
+fgetpwent_r []       (3)  - get passwd file entry reentrantly
+getpwent_r []        (3)  - get passwd file entry reentrantly
+gpasswd []           (1)  - administer the /etc/group and /etc/gshadow files
+hesiod_free_passwd [] (3)  - Hesiod functions for retrieving passwd information
+hesiod_getpwnam []   (3)  - Hesiod functions for retrieving passwd information
+hesiod_getpwuid []   (3)  - Hesiod functions for retrieving passwd information
+htpasswd []          (1)  - Manage user files for basic authentication
+ldappasswd []        (1)  - change the password of an LDAP entry
+lpasswd []           (1)  - Change group or user password
+lppasswd []          (1)  - add, change, or delete digest passwords
+mkpasswd []          (1)  - generate new password, optionally apply it to a user
+pam_localuser []     (8)  - require users to be listed in /etc/passwd
+pam_passwdqc        (rpm) - Pluggable password quality-control module.
+pam_passwdqc []      (8)  - Password quality - control PAM module
+passwd              (rpm) - The passwd utility for setting/changing passwords using PAM
+passwd []            (1)  - compute password hashes
+passwd []            (1)  - update a user's authentication tokens(s)
+passwd []            (5)  - password file
+passwd2des []        (3)  - RFS password encryption
+saslpasswd2 []       (8)  - set a user's sasl password
+smbpasswd []         (5)  - The Samba encrypted password file
+smbpasswd []         (8)  - change a user's SMB password
+userpasswd []        (1)  - A graphical tool to allow users to change their passwords
+yppasswd []          (1)  - change your password in the NIS database
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ info passwe\  d
+[?1h=[?1049h[H[2J[57;1HWelcome to Info version 4.11. Type ? for help, m for menu item.[1;1HFile: *manpages*,  Node: passwd,  Up: (dir)[3;1HPASSWD(1)                       User utilities                       PASSWD(1)[5;1HNAME[6;1H       passwd - update a user's authentication tokens(s)[8;1HSYNOPSIS[9;1H       passwd [-k] [-l] [-u [-f]] [-d] [-n mindays] [-x maxdays] [-w warndays][10;1H       [-i inactivedays] [-S] [--stdin] [username][12;1HDESCRIPTION[13;1H       Passwd is used to update a user's authentication token(s).[15;1H       Passwd is configured to work through the Linux-PAM  API.   Essentially,[16;1H       it initializes itself as a "passwd" service with Linux-PAM and utilizes[17;1H       configured password modules to authenticate and then  update  a  user's[18;1H       password.[20;1H       A  simple  entry  in  the Linux-PAM configuration file for this service[21;1H       would be:[23;1H        #[24;1H        # passwd service entry that does strength checking of[25;1H        # a proposed password before updating it.[26;1H        #[27;1H        passwd password requisite \[28;1H                    /usr/lib/security/pam_cracklib.so retry=3[29;1H        passwd password required \[30;1H                    /usr/lib/security/pam_unix.so use_authtok[31;1H        #[33;1H       Note, other module-types are not required for this application to func-[34;1H       tion correctly.[36;1HOPTIONS[37;1H       -k     The  option, -k, is used to indicate that the update should only[38;1H              be for  expired  authentication  tokens  (passwords);  the  user[39;1H              wishes to keep their non-expired tokens as before.[41;1H       -l     This  option  is  used  to  lock the specified account and it is[42;1H              available to root only. The locking is  performed  by  rendering[43;1H              the  encrypted password into an invalid string (by prefixing the[44;1H              encrypted string with an !).[46;1H       --stdin[47;1H              This option is used to indicate that passwd should read the  new[48;1H              password from standard input, which can be a pipe.[50;1H       -u     This  is  the  reverse  of  the  -l  option - it will unlock the[51;1H              account password by removing the ! prefix. This option is avail-[52;1H              able  to  root  only.  By default passwd will refuse to create a[53;1H              passwordless account (it will not unlock  an  account  that  has[54;1H              only  "!" as a password). The force option -f will override this[55;1H              protection.[56;1H[7m-----Info: (*manpages*)passwd, 235 lines --Top------------------------------------------------------[0m[1;1H[57;1H[K[57;1H[K[?1l>[?1049l]0;cbekker@cwolf:~[cbekker@cwolf ~]$ r exiy
+bash: exiy: command not found
+]0;cbekker@cwolf:~[cbekker@cwolf ~]$ exiy t
+exit
+
+Script done on Mon Feb 14 11:58:52 2011
